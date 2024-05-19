@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=muli:wght@400;700&display=swap");
+
+body {
+  font-family: "muli", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  display: flex;
+}
+input{
+  border: 3px solid rgb(68, 68, 249);
+  border-radius: 10px;
+  height:40px;
+  width: 200px;
+  background-color:rgb(242, 232, 232);
+  transition: 1s ease-in;
+}
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  
+  
+
+}
+input:hover{
+  border: 2px solid rgb(249, 101, 68);
+  border-radius: 10px;
+  height:40px;
+  width: 200px;
+  background-color:rgb(249, 101, 68);
+}
